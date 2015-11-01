@@ -20,3 +20,8 @@ ex04.cpp
 
 ex. 9. Function BiasedSort takes reference to vector<string> and sorts it
 putting strings "Me First" first.
+
+ex05.cpp
+
+ex 10. Function CriticsPick accepts a map<string, double> of movies and their
+ratings and returns a set<string> of the names of the top 10 movies in the map.
