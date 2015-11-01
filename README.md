@@ -15,3 +15,8 @@ ex03.cpp
 
 ex. 8. Calculate distance of a point in space to origin.  Write a function DistanceToOrigin that
 accepts a vector<double> and returns the distance to the origin. Use inner_product.
+
+ex04.cpp
+
+ex. 9. Function BiasedSort takes reference to vector<string> and sorts it
+putting strings "Me First" first.

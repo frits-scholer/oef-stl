@@ -16,8 +16,6 @@ int main() {
   string pointstr;
   getline(cin, pointstr);
   istringstream nrstream(pointstr);
-  //istream_iterator<double> ii(nrstream);
-  //istream_iterator<double> eos;
   vector<double> v((istream_iterator<double>(nrstream)), istream_iterator<double>());
   cout << "Distance to origin: " << DistanceToOrigin(v) << endl;
 }
