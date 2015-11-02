@@ -7,7 +7,7 @@
 using namespace std;
 
 int RandomNumber() {
-  return rand();
+  return rand()%100;
 }
 
 int main() {
@@ -19,4 +19,6 @@ int main() {
   generate_n(back_inserter(v), N, RandomNumber);
   for (auto n: v) cout << n << "\t";
   cout << endl;
+  double average = 0.0;
+  cout << "Average = " << accumulate(v.begin(), v.end(), average)/v.size() << endl;
 }

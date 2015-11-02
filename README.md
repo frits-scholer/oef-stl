@@ -30,4 +30,4 @@ ex06.cpp
 
 ex. 12. Use generate_n, rand and back_inserter to populate a vector
 with a specified number of random values. Then use accumulate to
-compute the avrage of the range
+compute the average of the range.
