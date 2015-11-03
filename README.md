@@ -31,3 +31,7 @@ ex06.cpp
 ex. 12. Use generate_n, rand and back_inserter to populate a vector
 with a specified number of random values. Then use accumulate to
 compute the avrage of the range
+
+ex07.cpp
+
+ex. 13. Use nth_element to compute the median of a set of data.
