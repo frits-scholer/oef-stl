@@ -31,3 +31,12 @@ ex06.cpp
 ex. 12. Use generate_n, rand and back_inserter to populate a vector
 with a specified number of random values. Then use accumulate to
 compute the average of the range.
+
+ex07.cpp
+
+ex. 13. Write a function to calculate median using nth_element algorithm.
+
+ex08.cpp
+
+ex. 14. Use copy, istreambuf_iterator, ostreambuf_iterator to open a file and print its
+content to cout.
