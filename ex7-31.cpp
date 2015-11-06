@@ -24,7 +24,7 @@ bool diffmod2(const string& v, const string& w) {
 }
 
 int main() {
-  ifstream is("sgb-words.txt");
+  ifstream is("../sgb/sgb-words.txt");
   vector<string> words((istream_iterator<string>(is)), istream_iterator<string>());
   is.close();
   sort(words.begin(), words.end());
